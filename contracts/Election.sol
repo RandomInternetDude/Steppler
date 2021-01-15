@@ -1,13 +1,10 @@
-pragma solidity ^0.4.11;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.4.22 <0.8.0;
 
 contract Election {
-    \\ required to create contract 
-    \\ store candidate
-    \\ read candidate
-    \\ constructor
     string public candidate;
     
-    function Election public {
+    function Election () public {
         candidate = "Candidate 1";
     }
 
